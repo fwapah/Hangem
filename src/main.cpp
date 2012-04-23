@@ -1,4 +1,5 @@
 #include "fileio.h"
+#include "player.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -16,12 +17,21 @@ int main()
         cout << words[i] << "\n";
     }
 
+    player player1; // CREATE PLAYER
+
+    char guess = player1.Getguess( ); // GET GUESS
+    char* playerName = player1.GetplayerName( ); // GET PLAYER NAME
+
+    cout << "\n" << playerName << " guessed: " << guess << "\n";
+
+    player1.addWin( ); // ADD A WIN
+
+    cout << "\nYou've won " << player1.GetWins( ) << " games.\n";
+
     // PAUSE
 
     char ch;
-
     cout << "\n\nPress q and then hit enter to quit.\n";
-
     cin >> ch;
 
     return 0;

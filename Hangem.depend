@@ -1,6 +1,7 @@
 # depslib dependency file v1.0
-1335199873 source:c:\documents and settings\lettier\my documents\3110\hangem\src\main.cpp
+1335209704 source:c:\documents and settings\lettier\my documents\3110\hangem\src\main.cpp
 	"fileio.h"
+	"player.h"
 	<iostream>
 	<fstream>
 	<string>
@@ -15,4 +16,15 @@
 	<string>
 	<iostream>
 	<fstream>
+
+1335204073 source:c:\documents and settings\lettier\my documents\3110\hangem\src\player.cpp
+	"player.h"
+	<string>
+	<iostream>
+	<stdio.h>
+
+1335203804 c:\documents and settings\lettier\my documents\3110\hangem\src\player.h
+	<string>
+	<iostream>
+	<stdio.h>
 
