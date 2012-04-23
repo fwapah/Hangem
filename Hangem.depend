@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1335199873 source:c:\documents and settings\lettier\my documents\3110\hangem\src\main.cpp
+	"fileio.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1335199710 source:c:\documents and settings\lettier\my documents\3110\hangem\src\fileio.cpp
+	"fileio.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1335199938 c:\documents and settings\lettier\my documents\3110\hangem\src\fileio.h
+	<string>
+	<iostream>
+	<fstream>
+
